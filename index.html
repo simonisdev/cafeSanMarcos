@@ -14,11 +14,10 @@
     <header>
         <nav class="nav-container">
             <div class="logo">
-                <!-- Aquí va el logo -->
                 <img src="img/logo_cafe_san_marcos.png" alt="Logo Café San Marcos">
             </div>
             <ul class="nav-links">
-                <li><a href="#hero-section">Café de calidad</a></li>
+                <li><a href="#presentaciones">Café de calidad</a></li>
                 <li><a href="#nosotros">Nosotros</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
@@ -30,7 +29,7 @@
         <div class="hero-content">
             <h1>ALEGRÍA DEL CAUCA EN CADA TAZA</h1>
             <p>Disfruta nuestra tradición cafetera colombiana en drips, grano tostado o molido</p>
-            <button>Contáctanos</button>
+            <button onclick="document.getElementById('contacto').scrollIntoView();">Contáctanos</button>
         </div>
 
         <!-- RRSS -->
@@ -41,15 +40,10 @@
             </a>
         </div>
         <div class="social-menu__item">
-            <a href="https://instagram.com/cinecultivoestudio?utm_medium=copy_link" target="_blank">
+            <a href="https://www.instagram.com/cafe.sanmarcos/" target="_blank">
                 <img class="icon-ig" src="./img/instagram.svg" alt="Instagram" >
             </a>
         </div>
-        <!-- <div class="social-menu__item">
-            <a href="https://www.youtube.com/c/CinecultivoEstudio" target="_blank">
-                <img class="icon-yt" src="./img/youtube.png" alt="YouTube" >
-            </a>
-        </div> -->
         <div class="social-menu__item">
             <a href="https://api.whatsapp.com/send/?phone=573142245365&text&type=phone_number&app_absent=0" target="_blank">
                 <img class="icon-wa" src="./img/whatsapp.svg" alt="WhatsApp" >
@@ -71,20 +65,17 @@
         </div>
     </section>
     
-    <section class="presentations">
+    <section id="presentaciones" class="presentations">
         <h2>Presentaciones <br> <span>Café San Marcos</span></h2>
         <div class="presentation-item">
-            <!-- Aquí va la imagen del producto "Drips" -->
             <img src="img/drip 1.jpg" alt="Drips">
             <p>Drips</p>
         </div>
         <div class="presentation-item">
-            <!-- Aquí va la imagen del producto "Tostado en grano" -->
             <img src="img/cafe_grano.jpg" alt="Tostado en grano">
             <p>Tostado en grano</p>
         </div>
         <div class="presentation-item">
-            <!-- Aquí va la imagen del producto "Café molido" -->
             <img src="img/bolsa_cafe.jpg" alt="Café molido">
             <p>Café molido</p>
         </div>
@@ -95,17 +86,17 @@
             <div class="footer-call-to-action">
                 <img src="img/logo_san_marcos.png" alt="logo taza de cafe">
                 <p>¿Dónde necesitas un delicioso Café San Marcos?</p>
-                <button>Contáctanos</button>
+                <button onclick="window.open('https://api.whatsapp.com/send/?phone=573142245365&text&type=phone_number&app_absent=0', '_blank')">Contáctanos</button>
             </div>
-            <!-- en css que caracteristicas de tipografia se pueden agrupar en la propiedad <font>? -->
+
             <div class="footer-contact">
                 <div class="contact-info">
                     <p><img class="ico-contact-info" src="img/icon_ws.png" alt="WhatsApp">(+57) 314 224 53 65</p>
                     <p><img class="ico-contact-info" src="img/mail_icon.png">alrovis7733@gmail.com</img></p>
                 </div>
                 <div class="social-media">
-                    <a href="#"><img class="ico-contact-info" src="img/icon_fb.png" alt="Facebook"></a>
-                    <a href="#"><img class="ico-contact-info" src="img/icon_ig.png" alt="Instagram"></a>
+                    <a href="https://www.facebook.com/profile.php?id=61562180210713" target="_blank"><img class="ico-contact-info" src="img/icon_fb.png" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/cafe.sanmarcos/" target="_blank"><img class="ico-contact-info" src="img/icon_ig.png" alt="Instagram"></a>
                 </div>
             </div>
         </div>
