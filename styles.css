@@ -14,9 +14,27 @@
 html {
     font-size: 62.5%;
     font-family: var(--primary-font);
+    scroll-behavior: smooth;
 }
 
-.poly-regular {
+#btn-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  #btn-top:hover {
+    background-color: #444; /* Color de fondo del botón al pasar el cursor */
+  }
+
+  .poly-regular {
     font-family: "Poly", serif;
     font-weight: 400;
     font-style: normal;
@@ -38,26 +56,34 @@ body {
 
 header {
     background-color: var(--secondary-color);
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /* padding: 10px 20px; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
 }
 .nav-container {
     display: flex;
+    justify-content: space-between;
+    height: 112px;
 }
 .nav-container ul {
     width: 100%;
 }
 .logo {
-    height: 112px;
-    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 112px; */
+    padding: 0 30px;
 }
 
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 20px;
+    /* gap: 20px; */
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 50px;
 }
 
 .nav-links li a {
