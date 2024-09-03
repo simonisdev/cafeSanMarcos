@@ -22,3 +22,15 @@
 //     btnTop.classList.remove('show');
 //   }
 // });
+
+
+// funcion de menu hamburguesa
+// document.addEventListener('DOMContentLoaded', function() {
+//   const mobile-menu = document.getElementById('mobile-menu');
+//   const navLinks = document.getElementById('nav-links');
+
+//   mobile-menu.addEventListener('click', function() {
+//       mobile-menu.classList.toggle('active');
+//       navLinks.classList.toggle('active');
+//   });
+// });
